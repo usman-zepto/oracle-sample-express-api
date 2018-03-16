@@ -1,7 +1,7 @@
 To install dependencies : npm install
 
 Entry file : app.js
-DB config: db.js constructer
+DB config: config.json 
 sample input data: data.json
 routes: routes.js
 
