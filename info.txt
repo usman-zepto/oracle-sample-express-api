@@ -1,0 +1,27 @@
+To install dependencies : npm install
+
+Entry file : app.js
+DB config: db.js constructer
+sample input data: data.json
+routes: routes.js
+
+1:- api GET host:port/
+
+2:- api POST host:port/
+payload
+{
+  "sessionId": "hastenksgvlyftzphqjructzysszxcau",
+  "data": {
+    "action": "activity.search",
+    "whocomm": 1,
+    "filter-name": "type",
+    "query-pref": {
+      "columns": [
+        "type",
+        "business.acnum"
+      ],
+      "order-by": "type",
+      "page-num": 1
+    }
+  }
+}

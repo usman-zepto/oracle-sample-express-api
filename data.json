@@ -1,0 +1,16 @@
+{
+  "sessionId": "hastenksgvlyftzphqjructzysszxcau",
+  "data": {
+    "action": "activity.search",
+    "whocomm": 1,
+    "filter-name": "type",
+    "query-pref": {
+      "columns": [
+        "type",
+        "business.acnum"
+      ],
+      "order-by": "type",
+      "page-num": 1
+    }
+  }
+}

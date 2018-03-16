@@ -1,0 +1,16 @@
+{
+  "name": "oracle-test-api",
+  "version": "1.0.0",
+  "description": "This is test api in express using oracle npm. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "oracledb": "git+https://github.com/bchr02/node-oracledb.git#prebuild_support"
+  }
+}
